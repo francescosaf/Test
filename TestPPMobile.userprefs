@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="TestPPMobile/TestPPMobile.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestPPMobile/Activities/ContactListAdapter.cs">
+    <Files>
+      <File FileName="TestPPMobile/Activities/ContactListAdapter.cs" Line="38" Column="26" />
+      <File FileName="TestPPMobile/MainActivity.cs" Line="45" Column="1" />
+      <File FileName="TestPPMobile/Activities/ContactList.cs" Line="28" Column="1" />
+      <File FileName="TestPPMobile/Resources/values/Strings.xml" Line="12" Column="6" />
+      <File FileName="TestPPMobile/Activities/ContactEdit.cs" Line="44" Column="1" />
+      <File FileName="TestPPMobile/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="TestPPMobile/Activities/BaseActivity.cs" Line="56" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestPPMobile AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
