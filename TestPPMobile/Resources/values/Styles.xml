@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+	<!--- Main style declaration -->
+	<style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+	<item name="colorPrimary">@color/colorPrimary</item>
+	<item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+	<item name="android:textColor" >#000000</item>
+	<item name="android:actionMenuTextColor">#ffffff</item> <!-- bar text color  -->
+	</style>
+	<!--- Main style declaration -->
+
+	<!-- Needed for custom theme -->
+		<style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+		<item name="color">#ffffff</item> 
+		<item name="spinBars">true</item>
+		</style>
+		<!-- Needed for custom theme -->
+
+	<!---Toolbar style -->
+	<style name="ToolBarStyle" parent="ToolBarStyle.Base"/>
+
+	<style name="ToolBarStyle.Base" parent="">
+	<item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+	<item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+	</style>
+
+	<style name="ToolBarStyle.Event" parent="ToolBarStyle">
+	<item name="titleTextAppearance">@style/TextAppearance.Widget.Event.Toolbar.Title</item>
+	</style>
+
+	<style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+	<item name="android:textStyle">bold</item>
+	</style>
+	<!---Toolbar style -->
+	</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/Toolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="First Name"
+                    android:id="@+id/FirstNameLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/FirstNameEdit"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Last Name"
+                    android:id="@+id/LastNameLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LastNameEdit"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Email"
+                    android:id="@+id/EmailLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EmailEdit"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Job Title"
+                    android:id="@+id/JobTitleLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/JobTitleEdit"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Phone"
+                    android:id="@+id/PhoneLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PhoneEdit"
+                    android:inputType="phone"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Alt. Phone"
+                    android:id="@+id/AltPhoneLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AltPhoneEdit"
+                    android:inputType="phone"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Mobile"
+                    android:id="@+id/MobileLabel"
+                    android:layout_weight="30"
+                    android:background="#d2d1d1"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/MobileEdit"
+                    android:inputType="phone"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:textColor="#000000" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">TestPPMobile</string>
+	<string name="contactFirstName">First Name</string>
+    <string name="contactLastName">Last Name</string>
+    <string name="contactEmail">Email</string>
+    <string name="contactJobTitle">Job Title</string>
+    <string name="contactPhone">Phone</string>
+    <string name="contactAltPhone">Alt. Phone</string>
+    <string name="contactMobile">Mobile</string>
+     <string name="addContact">Add a contact...</string>
+       <string name="hello">Open calendar</string>
+    <string name="app_name">CalendarViewSample</string>
+    
+    <color name="text_color">#31D1F1</color>
+	<color name="white">#ffffff</color>
+	<string name="open">Open</string>
+</resources>
